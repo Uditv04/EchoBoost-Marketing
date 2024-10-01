@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #278bd8;
+            text-align: center;
+        }
+
+        h1 {
+          
+            font-size: 70px;
+            color: #abb8c3;
+            font-weight: 600;
+            padding-bottom: 20px;
+        }
+
+
+        p {
+            color: #ccd5dc;
+        }
+
+        h3 {
+            font-size: 40px;
+            color: #abb8c3;
+            font-weight: 600;
+            padding-bottom: 30px;
+            padding: 30px;
+
+        }
+
+        .container {
+            max-width: 1320px;
+            margin: 0 auto;
+            padding: 5%;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px 0;
+        }
+
+        input,
+        textarea,
+        label {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            color: #fcfcfb;
+        }
+
+        input,
+        textarea {
+            background-color: transparent;
+            border: 0;
+            border-bottom: 2px solid #fcf8f8;
+        }
+
+        input[type=submit] {
+            background-color: #8ed1fc;
+            padding: 15px 0;
+            color: white;
+            font-size: 18px;
+            border-bottom: none;
+            margin-top: 30px;
+            cursor: pointer;
+            transition: all .3s ease;
+        }
+
+        input[type=submit]:hover {
+
+            background: hsla(0, 0%, 100%, 0.979);
+            color: #1b1c1e;
+        }
+
+        input,
+        textarea {
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: 1px solid #dbdada;
+        }
+
+        a {
+            color: #c3d3e0;
+            font-style: italic;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Link to home.html from contact.html -->
+        <a style="text-decoration: none;" href="index.html"> Back To Home</a>
+        <h1>We'd love to hear from you</h1>
+
+        <p>Have questions or feedback? Simply use the form below to contact us, we'll get back to you as soon as
+            possible.</p>
+        <h3>Contact Us</h3>
+
+        <form action="mail.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="contactName">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="contactEmail">
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="contactSubject">
+            <label for="message">Message</label>
+            <textarea name="message" cols="20" rows="10"></textarea>
+            <input type="submit" value="Send">
+        </form>
+
+        <script src="contact.js"></script>
+</body>
+
+</html>

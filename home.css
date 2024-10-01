@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+    /* font-weight: bold; */
+}
+
+/* Home Section */
+.home {
+    background:url("images/seo&cm.png") center/cover no-repeat;
+    color: rgb(6, 1, 1);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 48px;
+}
+
+.home-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #e85b5b;
+}
+
+/* Services Overview Section */
+.services-overview {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services-overview h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #e8eaed;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial-item span {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Call-to-Action Section */
+.cta {
+    background-color: #266296;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta .cta-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.cta .cta-button:hover {
+    background-color: #e85b5b;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}

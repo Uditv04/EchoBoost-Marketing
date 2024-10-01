@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoBoost Marketing | Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+     <!-- Home Section -->
+     <section class="home">
+        <div class="home-content">
+            <h1>Welcome to EchoBoost Marketing</h1>
+            <p>Your Partner in Digital Success</p>
+            <a href="#services" class="cta-button">Discover Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section id="services" class="services-overview">
+        <h2>Our Expertise</h2>
+        <div class="services-list">
+            <div class="service-item">
+                <h3>Digital Marketing</h3>
+                <p>Enhance your online presence and drive targeted traffic with our expert digital marketing strategies.
+                </p>
+            </div>
+            <div class="service-item">
+                <h3>SEO & Content Marketing</h3>
+                <p>Boost your search engine rankings and attract more customers with tailored SEO and content
+                    strategies.</p>
+            </div>
+            <div class="service-item">
+                <h3>Social Media Management</h3>
+                <p>Engage your audience and grow your brand on social media with our effective management solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <h2>About EchoBoost Marketing</h2>
+        <p>At EchoBoost Marketing, we are committed to helping businesses achieve their marketing goals. With a team of
+            experienced professionals, we provide customized strategies that drive results and ensure long-term success.
+        </p>
+    </section>
+
+    <!-- Client Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-list">
+            <div class="testimonial-item">
+                <p>"EchoBoost transformed our digital presence. Their expertise in SEO and content marketing is
+                    unmatched."
+                </p>
+                <span>- Jane Doe, CEO of XYZ Corp</span>
+            </div>
+            <div class="testimonial-item">
+                <p>"Thanks to EchoBoost, our social media engagement has skyrocketed. Highly recommend their services!"
+                </p>
+                <span>- John Smith, Marketing Director at ABC Ltd</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <h2>Ready to Grow Your Business?</h2>
+        <p>Contact us today to discuss how we can help you achieve your marketing goals. Our team is ready to provide
+            you
+            with the best solutions tailored to your needs.</p>
+        <a href="contact.html" class="cta-button">Get in Touch</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 EchoBoost Marketing. All Rights Reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('body').insertAdjacentHTML('afterbegin', data);
+                })
+                .catch(error => console.error('Error loading navbar:', error));
+        });
+    </script>
+</body>
+</html>
+</html>

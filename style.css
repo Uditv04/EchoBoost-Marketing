@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8ed1fc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #266296;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.navbar .logo img {
+    margin-left: 0px;
+    width: 122px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0 ;
+    padding:0;
+
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+
+}
+
+.nav-links :first-child{
+    display: flex;
+}
+
+.nav-links :last-child{
+    display: flex;
+}
+
+.navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links li a:hover {
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 4px;
+}
+
+.Blogs{
+    display: flex;
+}
+
+.about{
+    display: flex;
+}
+
+.navbar .nav-login {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-login li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+.nav-login .loginbtn:hover {
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 30px;
+}
+
+.nav-login .name {
+    box-sizing: border-box;
+    background: green;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.nav-login .name:hover {
+    background: rgb(54, 142, 54);
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

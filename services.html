@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | EchoBoost Marketing</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+    /* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+/* Services Intro Section */
+.services-intro {
+    text-align: center;
+    background-color: #358ad4;
+    color: white;
+    padding: 60px 20px;
+}
+
+.services-intro h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.services-intro p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Services List Section */
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-item h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.service-item p {
+    font-size: 16px;
+}
+
+.service-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.service-item ul li {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #e8eaed;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.why-choose-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.why-choose-us p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.why-choose-us ul li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.why-choose-us img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* Call-to-Action Section */
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta .cta-button {
+    display: inline-block;
+    background-color: #266296;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta .cta-button:hover {
+    background-color: #1a4b73;
+}
+
+.cta img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+
+</style>
+<body>
+    <!-- Navbar (if included dynamically) -->
+    <!-- <script src="navbar.js"></script> -->
+
+    <!-- Services Introduction -->
+    <section class="services-intro">
+        <h1>Our Services</h1>
+        <p>At EchoBoost Marketing, we offer a range of specialized services designed to elevate your business and maximize your online presence. Our team of experts is dedicated to delivering tailored solutions to meet your unique needs.</p>
+    </section>
+
+    <!-- Services List -->
+    <section class="services-list">
+        <div class="service-item">
+            <h2>Digital Marketing</h2>
+            <p>Enhance your online visibility with our comprehensive digital marketing strategies. From SEO to email marketing, we craft solutions that drive results.</p>
+            <ul>
+                <li>Search Engine Optimization (SEO)</li>
+                <li>Pay-Per-Click (PPC) Advertising</li>
+                <li>Email Marketing Campaigns</li>
+                <li>Content Creation and Marketing</li>
+            </ul>
+            <img src="images/dm1.png" alt="Digital Marketing">
+        </div>
+
+        <div class="service-item">
+            <h2>SEO & Content Marketing</h2>
+            <p>Boost your search engine rankings and attract more traffic with our expert SEO and content marketing services. We help you create content that resonates with your audience and ranks well on search engines.</p>
+            <ul>
+                <li>Keyword Research and Optimization</li>
+                <li>On-Page and Off-Page SEO</li>
+                <li>Content Strategy and Development</li>
+                <li>Link Building</li>
+            </ul>
+            <img src="images/seo&cm.png" alt="SEO and Content Marketing">
+        </div>
+
+        <div class="service-item">
+            <h2>Social Media Management</h2>
+            <p>Engage with your audience and build your brand presence across social media platforms. Our social media management services ensure your brand stays active and relevant in the digital space.</p>
+            <ul>
+                <li>Social Media Strategy and Planning</li>
+                <li>Content Creation and Scheduling</li>
+                <li>Community Management</li>
+                <li>Analytics and Reporting</li>
+            </ul>
+            <img src="images/smm.png" alt="Social Media Management" width: 33vw;
+            height: 40vh;>
+        </div>
+
+        <div class="service-item">
+            <h2>Brand Strategy</h2>
+            <p>Develop a strong and recognizable brand identity with our brand strategy services. We help you define your brand's voice, vision, and values to connect with your target audience effectively.</p>
+            <ul>
+                <li>Brand Positioning and Messaging</li>
+                <li>Market Research and Analysis</li>
+                <li>Visual Identity Design</li>
+                <li>Brand Guidelines</li>
+            </ul>
+            <img src="images/brand strategy.png" alt="Brand Strategy" width: 33vw;
+            height: 40vh;>
+        </div>
+
+        <div class="service-item">
+            <h2>Paid Advertising</h2>
+            <p>Drive targeted traffic and increase conversions with our paid advertising solutions. We create and manage ad campaigns across various platforms to ensure you get the best return on investment.</p>
+            <ul>
+                <li>Google Ads Management</li>
+                <li>Social Media Advertising</li>
+                <li>Display Advertising</li>
+                <li>Retargeting Campaigns</li>
+            </ul>
+            <img src="images/pa.png" alt="Paid Advertising">
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <h2>Why Choose EchoBoost Marketing?</h2>
+        <p>We are dedicated to providing exceptional marketing services tailored to your needs. Here’s why our clients choose us:</p>
+        <ul>
+            <li>Experienced Team of Professionals</li>
+            <li>Customized Strategies for Your Business</li>
+            <li>Data-Driven Approach for Optimal Results</li>
+            <li>Commitment to Transparency and Communication</li>
+        </ul>
+        <img src="images/business plan.jpg" alt="">
+    </section>
+
+    <!-- Call-to-Action -->
+    <section class="cta">
+        <h2>Ready to Elevate Your Business?</h2>
+        <p>Contact us today to discuss how we can help you achieve your marketing goals. Our team is here to provide you with the best solutions tailored to your needs.</p>
+        <a href="contact.html" class="cta-button">Get in Touch</a>
+    </section>
+
+    <!-- Contact Information (if included) -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('body').insertAdjacentHTML('afterbegin', data);
+                })
+                .catch(error => console.error('Error loading navbar:', error));
+        });
+    </script>
+    
+</body>
+</html>

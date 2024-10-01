@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - EchoBoost Marketing</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #8ed1fc;
+        }
+
+        /* About Us Section */
+        .about-us {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-us h1,
+        .about-us h2 {
+            color: #266296;
+            margin-bottom: 20px;
+        }
+
+        .about-us p {
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .about-us ul {
+            list-style: disc inside;
+            margin: 0 0 20px 20px;
+            padding: 0;
+        }
+
+        .about-us ul li {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .about-us ul li strong {
+            color: #266296;
+        }
+
+        .about-us h2 {
+            font-size: 1.5em;
+            margin-top: 30px;
+        }
+
+        .about-us h1 {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .about-us {
+                padding: 10px;
+            }
+
+            .about-us h1 {
+                font-size: 1.5em;
+            }
+
+            .about-us h2 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="about-us">
+            <h1>About EchoBoost Marketing</h1>
+            <p>Welcome to EchoBoost Marketing, where your business's voice is amplified and echoed through the digital
+                world. At EchoBoost, we specialize in crafting powerful marketing strategies that resonate with your
+                target audience and drive meaningful results.</p>
+
+            <h2>Our Mission</h2>
+            <p>Our mission is to empower businesses of all sizes to achieve their full potential in the digital
+                landscape. We are committed to delivering innovative and effective marketing solutions that enhance
+                brand visibility, engagement, and growth.</p>
+
+            <h2>Our Vision</h2>
+            <p>We envision a world where every business has the tools and expertise to connect with their audience in a
+                meaningful way. By leveraging the latest technologies and marketing trends, we aim to be at the
+                forefront of the digital marketing industry, setting new standards of excellence.</p>
+
+            <h2>What We Do</h2>
+            <ul>
+                <li><strong>Digital Marketing</strong>: From SEO and content marketing to social media management, we
+                    provide strategies that boost your online presence and drive traffic to your site.</li>
+                <li><strong>SEO & Content Marketing</strong>: Enhance your visibility on search engines and engage your
+                    audience with high-quality, relevant content.</li>
+                <li><strong>Social Media Management</strong>: Build a strong social media presence with tailored
+                    strategies for platforms like Facebook, Instagram, Twitter, and LinkedIn.</li>
+                <li><strong>Brand Strategy</strong>: Define and refine your brand's voice, identity, and positioning to
+                    stand out in a crowded market.</li>
+                <li><strong>Paid Advertising</strong>: Maximize your ROI with targeted advertising campaigns on Google,
+                    Facebook, and other major platforms.</li>
+            </ul>
+
+            <h2>Our Approach</h2>
+            <p>We believe in a personalized approach to marketing. Our team takes the time to understand your business,
+                your goals, and your audience. We then tailor our strategies to fit your unique needs, ensuring that
+                every campaign we launch is aligned with your vision and objectives.</p>
+
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li><strong>Expertise</strong>: With years of experience in the industry, we have the knowledge and
+                    skills to deliver top-notch marketing solutions.</li>
+                <li><strong>Innovation</strong>: We stay ahead of the curve by constantly exploring new trends and
+                    technologies to keep your business at the forefront of digital marketing.</li>
+                <li><strong>Results-Driven</strong>: Our focus is on delivering measurable results that help you achieve
+                    your business goals.</li>
+                <li><strong>Customer-Centric</strong>: Your satisfaction is our priority. We work closely with you to
+                    ensure your needs are met and your expectations are exceeded.</li>
+            </ul>
+
+            <h2>Get in Touch</h2>
+            <p>Ready to take your marketing to the next level? Contact us today to learn more about how EchoBoost
+                Marketing can help your business thrive.</p>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('body').insertAdjacentHTML('afterbegin', data);
+                })
+                .catch(error => console.error('Error loading navbar:', error));
+        });
+    </script>
+    
+   
+</body>
+
+</html>

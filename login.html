@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-color: #246ec7;
+}
+
+/* General Styles for the Login Form */
+.login-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #e4e7ec;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 120px;
+}
+
+.login-form h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: #266296;
+    outline: none;
+}
+
+.login-form .btn-btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #266296;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form .btn-btn-primary:hover {
+    background-color: #1a4b75;
+}
+
+.login-form hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.login-form p {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.login-form p a {
+    color: #266296;
+    text-decoration: none;
+}
+
+.login-form p a:hover {
+    text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+    
+
+<div class="login-form">
+
+    <h1>LOGIN NOW</h1>
+    <form action="login.js" method="post">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="loginUsername" name="username" aria-describedby="emailHelp">
+            
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="loginPassword" name="password">
+        </div>
+
+        <button type="submit" class="btn-btn-primary">Login Now <i class="fa fa-user-plus" aria-hidden="true"></i></button>
+        <hr>
+        <p class="forgot-password">Forgot Password 
+            <a href="#">Click here</a>
+        </p>
+        <p class="create-now">Don't have an account? <a href="index.html">Create Now</a></p>
+    </form>
+</div>
+
+<script src="script2.js"></script>
+</body>
+</html>
