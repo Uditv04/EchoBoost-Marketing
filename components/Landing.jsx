@@ -26,7 +26,7 @@ const Landing = () => {
       <div className="bg-gradient-to-r from-black via-blue-800 to-purple-900 text-white">
         <section id="services" className="services-overview py-16 px-5 text-center">
           <h2 className="text-5xl sm:text-4xl mb-10 text-white">Our Expertise</h2>
-          <div className="services-list flex flex-wrap justify-around text-white">
+          <div className="services-list flex flex-wrap justify-around text-white animate-pulse">
             <div className="service-item p-5 m-3 w-full sm:w-1/2 md:w-1/3 rounded-lg shadow-[0_0_10px_rgba(12,118,228,0.9)]">
               <h3 className="text-2xl mb-3">Digital Marketing</h3>
               <p>
