@@ -40,31 +40,31 @@ const Services = () => {
           title="Digital Marketing"
           description="Enhance your online visibility with our comprehensive digital marketing strategies. From SEO to email marketing, we craft solutions that drive results."
           list={["Search Engine Optimization (SEO)", "Pay-Per-Click (PPC) Advertising", "Email Marketing Campaigns", "Content Creation and Marketing"]}
-          imgSrc="/images/dm1.png"
+          imgSrc="/Images/dm1.png"
         />
         <ServiceItem 
           title="SEO & Content Marketing"
           description="Boost your search engine rankings and attract more traffic with our expert SEO and content marketing services. We help you create content that resonates with your audience and ranks well on search engines."
           list={["Keyword Research and Optimization", "On-Page and Off-Page SEO", "Content Strategy and Development", "Link Building"]}
-          imgSrc="/images/seo&cm.png"
+          imgSrc="/Images/seo&cm.png"
         />
         <ServiceItem 
           title="Social Media Management"
           description="Engage with your audience and build your brand presence across social media platforms. Our social media management services ensure your brand stays active and relevant in the digital space."
           list={["Social Media Strategy and Planning", "Content Creation and Scheduling", "Community Management", "Analytics and Reporting"]}
-          imgSrc="/images/smm.png"
+          imgSrc="/Images/smm.png"
         />
         <ServiceItem 
           title="Brand Strategy"
           description="Develop a strong and recognizable brand identity with our brand strategy services. We help you define your brand's voice, vision, and values to connect with your target audience effectively."
           list={["Brand Positioning and Messaging", "Market Research and Analysis", "Visual Identity Design", "Brand Guidelines"]}
-          imgSrc="/images/brand strategy.png"
+          imgSrc="/Images/brand strategy.png"
         />
         <ServiceItem 
           title="Paid Advertising"
           description="Drive targeted traffic and increase conversions with our paid advertising solutions. We create and manage ad campaigns across various platforms to ensure you get the best return on investment."
           list={["Google Ads Management", "Social Media Advertising", "Display Advertising", "Retargeting Campaigns"]}
-          imgSrc="/images/pa.png"
+          imgSrc="/Images/pa.png"
         />
       </section>
 
@@ -79,7 +79,7 @@ const Services = () => {
           <li className="text-sm sm:text-base">Commitment to Transparency and Communication</li>
         </ul>
         <Image 
-  src="/images/business plan.jpg" 
+  src="/Images/business plan.jpg" 
   alt="Business Plan" 
   width={900} 
   height={300} 

@@ -24,7 +24,7 @@ const AboutPage = () => {
         transition={{ duration: 1 }}
       >
         <Image
-          src="/images/marketing-team.jpg"
+          src="/Images/marketing-team.jpg"
           alt="Marketing Team"
           width={600}
           height={400}
@@ -46,7 +46,7 @@ const AboutPage = () => {
       >
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4">Our Mission</h2>
         <Image
-          src="/images/mission.jpg"
+          src="/Images/mission.jpg"
           alt="Our Mission"
           width={600}
           height={400}
@@ -68,7 +68,7 @@ const AboutPage = () => {
       >
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4">Our Vision</h2>
         <Image
-          src="/images/vision.jpg"
+          src="/Images/vision.jpg"
           alt="Our Vision"
           width={600}
           height={400}
@@ -120,7 +120,7 @@ const AboutPage = () => {
       >
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4">Why Choose Us?</h2>
         <Image
-          src="/images/choose.png"
+          src="/Images/choose.png"
           alt="Why Choose Us"
           width={600}
           height={400}

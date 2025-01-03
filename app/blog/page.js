@@ -12,7 +12,7 @@ const BlogPage = () => {
 
       <section className="introduction py-5">
         <div className="relative w-full h-64 mb-6">
-          <Image src="/images/dm.png" alt="SEO" layout="fill" objectFit="cover" className="rounded-lg" />
+          <Image src="/Images/dm.png" alt="SEO" layout="fill" objectFit="cover" className="rounded-lg" />
         </div>
         <p className="mt-5 text-sm md:text-base lg:text-lg">
           In today's fast-paced digital world, small businesses face the challenge of standing out in a crowded
@@ -26,7 +26,7 @@ const BlogPage = () => {
       <section className="understanding-digital-marketing py-5">
         <h2 className="text-2xl md:text-3xl font-semibold">Understanding Digital Marketing</h2>
         <div className="relative w-full h-64 mb-6">
-          <Image src="/images/digital marketing.jpg" alt="Digital Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
+          <Image src="/Images/digital marketing.jpg" alt="Digital Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
         </div>
         <p className="text-sm md:text-base lg:text-lg">
           Digital marketing encompasses all marketing efforts that use the internet and electronic devices.
@@ -39,8 +39,8 @@ const BlogPage = () => {
       <section className="benefits py-5">
         <h2 className="text-2xl md:text-3xl font-semibold">Benefits of Digital Marketing for Small Businesses</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-5">
-          <img src="/images/meeting.jpg" alt="Meeting" className="w-full h-auto rounded-md" />
-          <img src="/images/digi.png" alt="Digital" className="w-full h-auto rounded-md" />
+          <img src="/Images/meeting.jpg" alt="Meeting" className="w-full h-auto rounded-md" />
+          <img src="/Images/digi.png" alt="Digital" className="w-full h-auto rounded-md" />
         </div>
         <div className="space-y-4">
           <div>
@@ -88,7 +88,7 @@ const BlogPage = () => {
           <div>
             <h3 className="text-xl md:text-2xl font-medium">1. Search Engine Optimization (SEO)</h3>
             <div className="relative w-full h-64 mb-6">
-              <Image src="/images/seo.jpg" alt="SEO" layout="fill" objectFit="cover" className="rounded-lg" />
+              <Image src="/Images/seo.jpg" alt="SEO" layout="fill" objectFit="cover" className="rounded-lg" />
             </div>
             <p className="text-sm md:text-base lg:text-lg">
             SEO is the foundation of any successful digital marketing strategy. By optimizing your website for search engines, you can improve its visibility and attract organic traffic. Focus on keyword research, quality content, mobile optimization, and backlink building to enhance your SEO efforts.
@@ -97,7 +97,7 @@ const BlogPage = () => {
           <div>
             <h3 className="text-xl md:text-2xl font-medium">2. Content Marketing</h3>
             <div className="relative w-full h-64 mb-6">
-              <Image src="/images/content-marketing.jpg" alt="Content Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
+              <Image src="/Images/content-marketing.jpg" alt="Content Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
             </div>
             <p className="text-sm md:text-base lg:text-lg">
             Content is king in digital marketing. Providing valuable and informative content that addresses your audience's pain points can establish your business as an industry authority. Blogs, videos, infographics, and eBooks are effective content formats that can drive traffic and generate leads.
@@ -106,7 +106,7 @@ const BlogPage = () => {
           <div>
             <h3 className="text-xl md:text-2xl font-medium">3. Social Media Marketing</h3>
             <div className="relative w-full h-64 mb-6">
-              <Image src="/images/social media marketing.jpg" alt="Social Media Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
+              <Image src="/Images/social media marketing.jpg" alt="Social Media Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
             </div>
             <p className="text-sm md:text-base lg:text-lg">
             Social media platforms are powerful tools for building brand awareness and engaging with customers. Develop a consistent posting schedule, create shareable content, and utilize paid advertising options to reach a broader audience. In 2024, video content and live streaming are expected to dominate social media marketing.
@@ -115,7 +115,7 @@ const BlogPage = () => {
           <div>
             <h3 className="text-xl md:text-2xl font-medium">4. Email Marketing</h3>
             <div className="relative w-full h-64 mb-6">
-              <Image src="/images/Email marketing.png" alt="Email Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
+              <Image src="/Images/Email marketing.png" alt="Email Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
             </div>
             <p className="text-sm md:text-base lg:text-lg">
             Email remains one of the most effective digital marketing channels. Build an email list by offering incentives such as discounts or free resources, and use personalized email campaigns to nurture leads and convert them into loyal customers.
@@ -124,7 +124,7 @@ const BlogPage = () => {
           <div>
             <h3 className="text-xl md:text-2xl font-medium">5. Paid Advertising</h3>
             <div className="relative w-full h-64 mb-6">
-              <Image src="/images/paid advertising.png" alt="Paid Advertising" layout="fill" objectFit="cover" className="rounded-lg" />
+              <Image src="/Images/paid advertising.png" alt="Paid Advertising" layout="fill" objectFit="cover" className="rounded-lg" />
             </div>
             <p className="text-sm md:text-base lg:text-lg">
             Pay-per-click (PPC) advertising, such as Google Ads or Facebook Ads, can provide immediate results by placing your business in front of potential customers. With PPC, you only pay when someone clicks on your ad, making it a cost-effective way to drive targeted traffic.
@@ -136,7 +136,7 @@ const BlogPage = () => {
       <section className="conclusion py-5">
         <h2 className="text-2xl md:text-3xl font-semibold">Conclusion</h2>
         <div className="relative w-full h-64 mb-6">
-          <Image src="/images/business plan.jpg" alt="Business Plan" layout="fill" objectFit="cover" className="rounded-lg" />
+          <Image src="/Images/business plan.jpg" alt="Business Plan" layout="fill" objectFit="cover" className="rounded-lg" />
         </div>
         <p className="text-sm md:text-base lg:text-lg">
         In 2024, digital marketing will continue to play a crucial role in the growth and success of small businesses. By leveraging the benefits of digital marketing—such as cost-effectiveness, targeted audience reach, and measurable results—small businesses can compete with larger companies and thrive in an increasingly competitive landscape. It's time to embrace digital marketing and unlock new opportunities for your business.

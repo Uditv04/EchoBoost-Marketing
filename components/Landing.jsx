@@ -5,7 +5,7 @@ const Landing = () => {
     <>
       <section
         className="bg-cover bg-center py-16"
-        style={{ backgroundImage: "url('/images/pa.png')", opacity: 1 }}
+        style={{ backgroundImage: "url('/Images/pa.png')", opacity: 1 }}
       >
         <div className="home-content text-center">
           <h1 className="text-5xl sm:text-4xl text-white">
