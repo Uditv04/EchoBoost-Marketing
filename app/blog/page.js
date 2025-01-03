@@ -97,7 +97,7 @@ const BlogPage = () => {
           <div>
             <h3 className="text-xl md:text-2xl font-medium">2. Content Marketing</h3>
             <div className="relative w-full h-64 mb-6">
-              <Image src="/Images/content-marketing.jpg" alt="Content Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
+              <Image src="/Images/content marketing.jpg" alt="Content Marketing" layout="fill" objectFit="cover" className="rounded-lg" />
             </div>
             <p className="text-sm md:text-base lg:text-lg">
             Content is king in digital marketing. Providing valuable and informative content that addresses your audience's pain points can establish your business as an industry authority. Blogs, videos, infographics, and eBooks are effective content formats that can drive traffic and generate leads.

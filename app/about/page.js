@@ -24,7 +24,7 @@ const AboutPage = () => {
         transition={{ duration: 1 }}
       >
         <Image
-          src="/Images/marketing-team.jpg"
+          src="/Images/marketing.jpg"
           alt="Marketing Team"
           width={600}
           height={400}
